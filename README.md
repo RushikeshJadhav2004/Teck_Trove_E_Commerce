@@ -83,8 +83,8 @@ MongoDB installed locally or MongoDB Atlas
 ## Local Development
 *Clone the repo:*
 ```
-git clone https://github.com/your-username/techtrove.git
-cd techtrove
+[git clone https://github.com/your-username/techtrove.git
+cd techtrove](https://github.com/RushikeshJadhav2004/Teck_Trove_E_Commerce.git)
 ```
 
 *Setup server:*
@@ -110,11 +110,11 @@ JWT_SECRET=your_secret_key
 
 **Future Enhancements**
 
-✅ Payment gateway integration (Razorpay/Stripe)
-✅ Product reviews & ratings
-✅ Wishlist functionality
-✅ Email order notifications
-✅ Dark mode UI
+- Payment gateway integration (Razorpay/Stripe)
+- Product reviews & ratings
+- Wishlist functionality
+- Email order notifications
+- Dark mode UI
 
 
 ## 🧑‍🎓 Author
