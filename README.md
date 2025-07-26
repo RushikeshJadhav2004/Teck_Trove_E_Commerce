@@ -1,3 +1,6 @@
+## KINDLY LOGIN TO EXPLORE MORE FEATURES ON TECKTROVE...
+
+
 # 🛒 TechTrove - E-commerce Web Application
 
 TechTrove is a full-stack E-commerce web application built using the **MERN Stack** (MongoDB, Express.js, React, Node.js). It provides a modern online store experience with dynamic product listings, cart functionality, user authentication, and order management.
