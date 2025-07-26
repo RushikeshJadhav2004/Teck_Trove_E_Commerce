@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 TechTrove - E-commerce Web Application
 
-## Getting Started
+TechTrove is a full-stack E-commerce web application built using the **MERN Stack** (MongoDB, Express.js, React, Node.js). It provides a modern online store experience with dynamic product listings, cart functionality, user authentication, and order management.
 
-First, run the development server:
+---
+
+## 📸 Screenshots
+
+> *(Add actual screenshots in the project directory and link them like below)*
+
+### 🏠 Homepage
+![Homepage](https://github.com/user-attachments/assets/8cebf3be-9ad0-4253-8804-41833d5f22f5)
+
+### 🛍️ Product Page
+![Product Page](https://github.com/user-attachments/assets/203f4ac1-0d51-4e16-a450-68a3a81e56ee)
+
+### 🛒 Cart
+![Cart](https://github.com/user-attachments/assets/6a5d55f3-6e6d-44d5-ac39-926c2acb632e)
+
+### ⚙️ Admin Panel
+![Admin Panel](https://github.com/user-attachments/assets/338dfb60-9f69-423d-b848-9132b5b0d759)
+
+---
+
+## 🚀 Features
+
+- ✅ Fully functional product catalog
+- 🔍 Product filtering & search
+- 🛒 Add to cart & remove from cart
+- 🔐 User authentication (Login/Register)
+- 👨‍💼 Admin dashboard (add/edit/delete products)
+- 💳 Payment integration (optional)
+- 📱 Fully responsive UI with Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js
+- Tailwind CSS
+- Axios
+- React Router DOM
+- Toast Notifications
+
+**Backend**
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT for authentication
+
+---
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+TechTrove/
+├── client/                  # Frontend (React)
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── App.jsx
+│       └── main.jsx
+├── server/                  # Backend (Node + Express)
+│   ├── config/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+├── .env
+├── README.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##Setup Instructions
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+*Prerequisites*
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Node.js
+MongoDB installed locally or MongoDB Atlas
 
-## Learn More
+## Local Development
+*Clone the repo:*
+```
+git clone https://github.com/your-username/techtrove.git
+cd techtrove
+```
 
-To learn more about Next.js, take a look at the following resources:
+*Setup server:*
+```
+cd server
+npm install
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*Configure .env in server/:*
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
 
-## Deploy on Vercel
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Frontend: Vercel / Netlify*
+*Backend: Render / Cyclic / Railway*
+*Database: MongoDB Atlas*
+
+**Future Enhancements**
+
+✅ Payment gateway integration (Razorpay/Stripe)
+✅ Product reviews & ratings
+✅ Wishlist functionality
+✅ Email order notifications
+✅ Dark mode UI
+
+
+## 🧑‍🎓 Author
+
+**Rishii Jadhav**  
+🔗 [LinkedIn](https://www.linkedin.com/in/rushikeshjadhav2004)  
+🐙 [GitHub](https://github.com/RushikeshJadhav2004)
+
+
+# License
+This project is open source and available under the MIT License.
