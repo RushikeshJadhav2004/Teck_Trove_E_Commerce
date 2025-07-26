@@ -1,4 +1,7 @@
-## KINDLY LOGIN TO EXPLORE MORE FEATURES ON TECKTROVE...
+## KINDLY LOGIN TO EXPLORE MORE FEATURES ON TECHTROVE...
+
+<br>
+<br>
 
 
 # 🛒 TechTrove - E-commerce Web Application
